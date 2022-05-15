@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*offer banner */
+
+#free {
+    background-color: #A67744;
+    font-family: Proxima Nova, Regular;
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    }
+
+
+/*   navbar */
+.navbar {
+    background-color: #EEF3F4;
+    font-family: Proxima Nova, Regular;
+}
+
+.navbar-nav {
+    text-indent: 80px;
+    color: black;
+    font-family: Proxima Nova, Regular;
+
+}
+
+.navbar-nav1 {
+    display: flex;
+    list-style-type: none;
+    color: black;
+    width: 40%;
+
+}
+
+.nav {
+    color: black;
+    position: relative;
+    left: 20%;
+    text-indent: 60px;
+    margin-left: -1;
+}
+
+
+#Hero-banner2 {
+    background-image: url("../assets/Sooth_mobile_home/updated_Header1.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 35rem;
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+    
+}
+
+
+#Hero-banner
+{
+    background-color: #C6B9B6;
+     height: 35rem; 
+     padding: 164px 19px;
+}
+#Hero-banner button{
+    border: 1px solid #956A53;
+    background-color: #C6B9B6;
+    font-family: Proxima Nova, Regular;
+    /* width: 40%; */
+}
+
+
+/* Hero-banner */
+
+#banner {
+    background-color: #EEF3F4;
+    /* height: 400px; */
+}
+
+#banner h2 {
+    color: #354E57;
+}
+
+
+/* secondary-banner */
+
+#ban {
+
+    border: 1px solid #547665;
+    padding: 20px;
+}
+
+/* product-teaser1 */
+
+
+#prod-t h2 {
+    color: #354E57;
+}
+
+#product {
+    background-color: #EEF3F4;
+    /* height: 600px; */
+
+}
+
+
+/* Teaser1 */
+/* #Teaser {
+    background-color: #547665;
+
+} */
+#Teaser{
+    background-image: url("../assets/Sooth_mobile_home/man-in-blue-top-2830332.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #C6B9B6;
+    height: 45rem;
+    
+}
+#teaser1
+{
+    background-color: #547665;
+    height:45rem;
+    color: #FFFFFF;
+    padding: 164px 19px;
+  
+}
+#teaser1 h2{
+    font-family: Proxima Nova, Bold;
+    font-size: 40px;
+   
+}
+#teaser1 p{
+    font-family: Proxima Nova, Regular;
+    font-size: 16px;
+}
+#teaser1 button
+{
+    border: 1px solid white;
+    background-color: #547665;
+    font-family: Proxima Nova, Regular;
+    width: 30%;
+    color: #FFFFFF;
+    
+}
+
+/* product-teaser2 */
+
+#product-teas {
+    background-color: #EEF3F4;
+  
+    
+}
+#product-teas p{
+    font-size: 12px;
+    font-family: Proxima Nova, Regular;
+}
+
+.btn {
+    border: 1px solid #354E57;
+    font-size: 12px;
+    width: 70%;
+}
+
+/* #product-teas button {
+    width: 70%;
+} */
+@media (min-width: 0px) and (max-width: 768px) {
+    #product-teas i{
+        display: none;
+    }
+    #Hero-banner2 {
+        
+        width: 100%;
+        
+    }
+}
+
+/* Teaser2 */
+
+/* #mob-hand {
+    background-image: url("./assets/Sooth_mobile_home/sincerely-media-CjHJbp3zInA-unsplash.png") !important;
+    background-color: #C6B9B6;
+}
+
+#mob-handing {
+    background-image: url("../assets/Sooth_mobile_home/hand.png");
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+
+#mob-hand h2 {
+    color: white;
+    font-family: Proxima Nova, Regular;
+}
+
+#mob-hand p {
+    font-family: Proxima Nova, Regular;
+}
+
+#mob-hand button {
+
+    border: 1px solid #956A53;
+    background-color: #C6B9B6;
+    font-family: Proxima Nova, Regular;
+} */
+
+#mob-hand2 {
+    background-image: url("../assets/Sooth_mobile_home/hand.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    
+    
+}
+#mob-hand
+{
+    background-color: #C6B9B6;
+    height: 35rem;
+    padding: 164px 19px;
+}
+#mob-hand h2
+{ 
+    color: white;
+}
+#mob-hand button{
+    border: 1px solid #956A53;
+    background-color: #C6B9B6;
+    font-family: Proxima Nova, Regular;
+    width: 40%;
+}
+
+/* image-tiles */
+
+
+#tiles {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    opacity: 1;
+    font-family: Proxima Nova, Regular;
+
+}
+
+#tiles h5 {
+    font-family: Proxima Nova, Regular;
+    font-weight: bold;
+}
+
+/* feature-banner */
+
+.blue {
+    width: 80%;
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 80px;
+    font-family: Proxima Nova, Regular;
+}
+
+.blue h5,
+h6 {
+    font-weight: bold;
+}
+
+.main {
+    background-color: #EEF2F4;
+}
+
+/* newsletter */
+
+#newsletter {
+    padding: 60px;
+}
+
+#newsletter h2 {
+    font-size: 30px;
+    padding: 0px;
+}
+#newsletter p {
+    font-size: 16px;
+    padding: 0px;
+    font-family: Proxima Nova, Regular;
+}
+/* footer */
+
+.terms {
+    list-style-type: none;
+    display: flex;
+    text-indent: 30px;
+}
+.newws{
+    font-family: Proxima Nova, Regular ;
+}
+.newws input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 4px;
+    margin-left: -4px;
+    font-family: Proxima Nova, Regular;
+}
+
+#footer-in {
+    display: flex;
+    flex-direction: row;
+
+}
+
+input {
+    margin-left: -8px;
+    background-color: #956A53;
+    border: none;
+    color: #ffff;
+    padding: 3px;
+}
+
+#news1 {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+i.fa.fa-home,
+i.fa-solid.fa-shopping-cart,
+i.fa.fa-phone {
+    color: #C6B9B6;
+    font-size: 26px;
+}
+
+#prod-tease {
+    background-color: #EEF3F4;
+}
+
+.footer {
+    background-color: #354E57;
+    padding: 80px;
+    color: #fff;
+    font-family: Proxima Nova, Regular;
+
+}
+
+.footer li {
+    list-style: none;
+
+}
+
+.footer p {
+    padding: 10px 0;
+    font-family: Proxima Nova, Regular;
+}
+
+.terms li {
+    display: inline;
+    padding: 4px 7px;
+    text-decoration: underline;
+    font-family: Proxima Nova, Regular;
+}
+
+#icon {
+    font-size: 20px;
+    text-indent: 20px;
+}
